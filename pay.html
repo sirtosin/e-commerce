@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <title>Comfy House</title>
+</head>
+
+<body>
+
+    <!--navbar-->
+    <nav class="navbar">
+        <div class="navbar-center">
+            <span class="nav-icon">
+                <i class="fas fa-bars"></i>
+            </span>
+            <img src="/images/logo.svg" alt="store logo">
+            <div class="cart-btn">
+                <span class="nav-icon">
+                    <i class="fas fa-cart-plus"></i>
+                </span>
+                <div class="cart-items">0</div>
+            </div>
+        </div>
+    </nav>
+    <!--navbar end-->
+        
+    <!--cart pay out-->
+    <div class="pay-out">
+        <div class="container">
+            <a href="/index.html">
+                <i class="fas fa-window-close"></i>
+            </a>
+            <div class="input-group">
+                <div class="input-box">
+                    <input type="tel" class="name" placeholder="card number" required>
+                    <i class="fa fa-credit-card icon"></i>
+                </div>
+            </div>
+
+            <div class="input-group">
+                <div class="input-box">
+                    <input type="tel" required placeholder="Card CVV">
+                    <i class="fa fa-lock"></i>
+                </div>
+                <div class="input-box">
+                    <select>
+                        <option>01</option>
+                        <option>02</option>
+                        <option>03</option>
+                    </select>
+                    <select>
+                        <option>2020</option>
+                        <option>2021</option>
+                        <option>2022</option>
+                    </select>
+                </div>
+            </div>
+            <h4>Amount to Pay: $ <span class="cart-total"></span></h4>
+            <button class="pay-out-cart banner-btn">Pay Now</button>
+        </div>
+    </div>
+    <!--cart pay out end-->
+
+    <script src="/app.js"></script>
+</body>
+</html>

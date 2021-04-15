@@ -291,10 +291,6 @@ body {
   flex-direction: column;
 }
 
-.pay-out:hover{
-  transform: scale(1.2);
-}
-
 .pay-out .container {
   padding: 50px;
   background: #f2f2f2;
